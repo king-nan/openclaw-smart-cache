@@ -1,0 +1,34 @@
+# Smart Cache - 智能学习缓存层
+
+## 依赖
+
+本 Skill 仅使用 Python 标准库，无需额外安装：
+
+- `sqlite3` - 磁盘缓存
+- `json` - 数据序列化
+- `collections` - LRU 缓存
+- `time` - 时间戳
+- `os` - 文件操作
+
+## Python 版本
+
+- Python 3.8+
+- 推荐 Python 3.10+
+
+## 安装
+
+```bash
+# 无需 pip install，直接使用
+cd skills/smart-cache
+python cache_manager.py stats
+```
+
+## 快速测试
+
+```bash
+# 性能测试
+python cache_manager.py test
+
+# 查看统计
+python cache_manager.py stats
+```
